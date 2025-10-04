@@ -29,7 +29,6 @@ def load_5day_forecast_weather_for_orlando():
     response.raise_for_status()
     return response.json()
 
-
 def bring_an_umbrella(weather_data):
     '''returns true if it will rain in your location in the next 12 hours according to the weather_data'''
     bring_umbrella = False
